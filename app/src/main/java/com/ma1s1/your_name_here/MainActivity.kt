@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         var task1Button = findViewById<Button>(R.id.task1Button)
 
 
-        var value_from_main_activity  = "1234ABC"
+        var value_from_main_activity  = "1234ABCEFG"
 
         bioButton.setOnClickListener{
             var bioIntent = Intent(this, BioActivity::class.java)
